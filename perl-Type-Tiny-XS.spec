@@ -1,5 +1,5 @@
 Name:           perl-Type-Tiny-XS
-Version:        0.010
+Version:        0.012
 Release:        1%{?dist}
 Summary:        Provides an XS boost for some of Type::Tiny's built-in type constraints
 License:        GPL+ or Artistic
