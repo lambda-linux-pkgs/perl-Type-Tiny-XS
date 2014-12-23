@@ -13,6 +13,9 @@ BuildRequires:  perl(Test::More) >= 0.92
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 This module is optionally used by Type::Tiny 0.045_03 and above to provide
 faster, C-based implementations of some type constraints. (This package has
 only core dependencies, and does not depend on Type::Tiny, so other data
