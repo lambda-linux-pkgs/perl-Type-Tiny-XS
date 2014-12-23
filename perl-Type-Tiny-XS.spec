@@ -1,6 +1,8 @@
+%define _buildid .1
+
 Name:           perl-Type-Tiny-XS
 Version:        0.012
-Release:        1%{?dist}
+Release:        1%{?_buildid}%{?dist}
 Summary:        Provides an XS boost for some of Type::Tiny's built-in type constraints
 License:        GPL+ or Artistic
 Group:          Development/Libraries
